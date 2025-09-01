@@ -11,17 +11,25 @@ python flower.py
 
 
 import turtle
+
 import math
+
 screen = turtle.Screen()
+
 screen.title("Code a Pookalam")
+
 screen.setup(width=800, height=800)
+
 screen.bgcolor("brown")  # background
 
 t = turtle.Turtle()
+
 t.speed(0)
+
 t.hideturtle()
 
 COLORS = {
+
     "center_1": "yellow",
     "center_6": "#AA336A",
     "center_2": "#702963",
@@ -37,8 +45,8 @@ COLORS = {
 
 
 # Filled Circle 
-
 def draw_circle(tur, color, x, y, radius):
+
     tur.penup()
     tur.goto(x, y - radius)
     tur.pendown()
@@ -49,6 +57,7 @@ def draw_circle(tur, color, x, y, radius):
 
 # Draw filled Petal 
 def draw_petal(tur, radius, angle):
+
     tur.begin_fill()
     tur.circle(radius, angle)
     tur.left(180 - angle)
