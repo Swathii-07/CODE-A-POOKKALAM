@@ -1,7 +1,7 @@
 # CODE-A-POOKKALAM
 This project creates a beautiful and vibrant pookkalam(floral design for onam festival in kerala) using python turtle module.
 
-#CODE
+#code
 
 [flower.py](https://github.com/user-attachments/files/22073221/flower.py)
 import turtle
