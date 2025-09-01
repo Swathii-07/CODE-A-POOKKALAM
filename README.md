@@ -4,6 +4,8 @@ This project creates a beautiful and vibrant pookkalam(floral design for onam fe
 #code
 
 [flower.py](https://github.com/user-attachments/files/22073221/flower.py)
+
+
 import turtle
 import math
 screen = turtle.Screen()
@@ -187,7 +189,8 @@ def create_pookalam():
         y = radius * math.sin(math.radians(angle))
         draw_circle(t, COLORS["border_dots"], x, y, 7)
         angle += 30 # angle for the next dot
-
 create_pookalam()
+
 screen.update()
+
 turtle.done()
