@@ -155,8 +155,6 @@ def create_pookalam():
         t.right(30)
    
     draw_circle(t, COLORS["center_3"], 0, 0, 140) #circle3
-  
-    # Layer 1: The Center Circle
     
     draw_circle(t, COLORS["center_2"], 0, 0, 129) #circle2
   
