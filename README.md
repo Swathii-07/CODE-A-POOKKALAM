@@ -6,7 +6,9 @@ This project creates a beautiful and vibrant pookkalam(floral design for onam fe
 
 ##how to run
 bash
+
 python flower.py
+
 
 import turtle
 import math
