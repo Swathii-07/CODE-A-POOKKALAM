@@ -202,6 +202,7 @@ def create_pookalam():
         draw_circle(t, COLORS["border_dots"], x, y, 7)
         angle += 30 # angle for the next dot
 create_pookalam()
+
 screen.update()
 
 turtle.done()
