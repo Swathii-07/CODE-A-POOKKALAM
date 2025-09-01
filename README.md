@@ -3,7 +3,7 @@ A beautiful Onam-themed pookkalam (flower carpet) created using Python Turtle gr
 This project demonstrates the use of Python's simple turtle module to design colorful patterns resembling traditional pookkalam designs.
 ### HOW TO RUN
 ```SHELL
-git clone <https://github.com/Swathii-07/CODE-A-POOKKALAM>
+git clone https://github.com/Swathii-07/CODE-A-POOKKALAM
 cd <Downloaded_Folder>
 python flower.py
 ```
