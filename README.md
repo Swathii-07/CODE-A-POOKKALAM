@@ -1,10 +1,12 @@
 # CODE-A-POOKKALAM
 This project creates a beautiful and vibrant pookkalam(floral design for onam festival in kerala) using python turtle module.
 
-#code
-
+##Files
 [flower.py](https://github.com/user-attachments/files/22073221/flower.py)
 
+##how to run
+bash
+python flower.py
 
 import turtle
 import math
@@ -190,7 +192,6 @@ def create_pookalam():
         draw_circle(t, COLORS["border_dots"], x, y, 7)
         angle += 30 # angle for the next dot
 create_pookalam()
-
 screen.update()
 
 turtle.done()
