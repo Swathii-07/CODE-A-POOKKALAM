@@ -4,7 +4,7 @@ This project demonstrates the use of Python's simple turtle module to design col
 ### HOW TO RUN
 ```SHELL
 git clone https://github.com/Swathii-07/CODE-A-POOKKALAM
-cd <Pookkalam>
+cd Pookkalam
 python flower.py
 ```
 ### TECH STACK
